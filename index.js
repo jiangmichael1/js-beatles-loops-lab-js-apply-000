@@ -23,12 +23,16 @@ function johnLennonFacts(facts){
   //declare a constant that is an empty array
   
   let i = 0;
-  //creating a counter
+  //creating a counter through using a local variable i
   
   while (i < facts.length){
+  //using a while loop means that if the conditional is true
+  //which means that if the value of i is less than the Number
+  //of facts, then the following will happen.
     
     array.push(`${facts[i]}!!!`);
     i++;
+    //Using .push adds
   }
   
   return array;
