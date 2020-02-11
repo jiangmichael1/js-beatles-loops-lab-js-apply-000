@@ -16,10 +16,14 @@ function theBeatlesPlay(musicians, instruments){
 }
 
 function johnLennonFacts(facts){
+//creates a function called johnLennonFacts with one parameter:
+//a string of facts
   
   const array = [];
+  //declare a constant that is an empty array
   
   let i = 0;
+  //creating a counter
   
   while (i < facts.length){
     
