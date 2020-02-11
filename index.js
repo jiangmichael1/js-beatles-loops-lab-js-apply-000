@@ -32,7 +32,9 @@ function johnLennonFacts(facts){
     
     array.push(`${facts[i]}!!!`);
     i++;
-    //Using .push adds
+    //Using .push adds this element, which is currently a string,
+    //to the end of the array. After which 1 is added to the local
+    //variable. 
   }
   
   return array;
